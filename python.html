@@ -22,6 +22,16 @@
         <h1>Team Generator</h1>
            <py-script>
                print("Benvenuto su Team Allocator")
+               import random
+               players =["Martin", "Craig" , "Sue",
+                          "Claire","Dave" ,"Alice",
+                           "Sonakshi","Harry","Jack",
+                           "Rose","Lexi","Maria",
+                           "Thomas","James","William",
+                           "Ada","Grace","Jean"
+                           "Marisa","Alan"]
+               team1=players[:len(players)//2]
+               print("Capitano Team1: "+random.choice(team1))
            </py-script>    
     </div>
 </div>    
