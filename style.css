@@ -389,4 +389,10 @@ li{
 .spacer.v80{
     height: 84px;
 }
+}#promo,
+#iscriviti,
+#footer{
+    text-align: center;
+    color: #fff;
+    min-width: 1040px;
 }
