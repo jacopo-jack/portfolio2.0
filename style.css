@@ -368,3 +368,25 @@ li{
     text-align: center;
     padding-bottom: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  h1,h2{
+    margin:  0;
+    padding: 0;
+    font-family: "Anton";
+    font-weight: normal;
+    font-size: larger;
+}
+    spacer.v20{
+    height: 20px;
+}
+.spacer.v40{
+    height: 44px;
+}
+.spacer.v80{
+    height: 84px;
+}
+}
